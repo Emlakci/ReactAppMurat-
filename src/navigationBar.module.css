@@ -1,0 +1,28 @@
+.navi
+{
+    background-color: #EDC7B7;
+    font-family: Helvetica;
+}
+.navBrand
+{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.hmbrger:hover
+{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    text-decoration: underline;
+} 
+
+@media screen and (max-width: 520px) 
+{
+    .navBrand
+    {
+        font-size: 13px;
+        font-weight: 700;
+        width: 75%;
+    }    
+}
